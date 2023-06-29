@@ -1,4 +1,4 @@
-import { Vertice } from './shared/vertice.js';
+import { Vertice } from './vertice.js';
 import PromptSync from 'prompt-sync';
 
 const prompt = PromptSync({ sigint: true });
