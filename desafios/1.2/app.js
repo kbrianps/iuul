@@ -1,3 +1,5 @@
-import CoreController from "./CoreController.js";
+import CoreController from "./controllers/CoreController.js";
+import PatientController from "./controllers/PatientController.js";
 
-CoreController.runApplication();
+const Controller = new CoreController;
+Controller.runApplication();
